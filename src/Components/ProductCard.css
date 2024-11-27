@@ -1,0 +1,86 @@
+.color-circle1 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: transform 0.2s, border-color 0.2s;
+  background-color:#A8B7C7;
+}
+.color-circle2 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: transform 0.2s, border-color 0.2s;
+  background-color:#9A9D80;
+
+}
+.color-circle3 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: transform 0.2s, border-color 0.2s;
+  background-color: hsl(108, 91%, 42%);
+
+}
+.color-circle4 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: transform 0.2s, border-color 0.2s;
+  background-color:#74BCCB;
+
+}
+.color-circle5 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: transform 0.2s, border-color 0.2s;
+  background-color: hsl(130, 60%, 47%);
+
+}
+.color-circle6 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: transform 0.2s, border-color 0.2s;
+  background-color: #56121D;
+
+}
+
+.color-circle1.active {
+  transform: scale(1.2);
+  border-color: #000;
+}
+.color-circle2.active {
+  transform: scale(1.2);
+  border-color: #000;
+}
+.color-circle3.active {
+  transform: scale(1.2);
+  border-color: #000;
+}
+.color-circle4.active {
+  transform: scale(1.2);
+  border-color: #000;
+}
+.color-circle5.active {
+  transform: scale(1.2);
+  border-color: #000;
+}
+.color-circle6.active {
+  transform: scale(1.2);
+  border-color: #000;
+}
+
+

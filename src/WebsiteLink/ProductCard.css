@@ -1,0 +1,26 @@
+.color-circle-denim {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #007bff; /* Denim Blue */
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: transform 0.2s, border-color 0.2s;
+  }
+  
+  .color-circle-burgundy {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #800020; /* Burgundy */
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: transform 0.2s, border-color 0.2s;
+  }
+  
+  .color-circle-denim.active,
+  .color-circle-burgundy.active {
+    transform: scale(1.2);
+    border-color: #000;
+  }
+  
