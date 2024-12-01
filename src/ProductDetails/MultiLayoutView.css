@@ -1,0 +1,64 @@
+.multi-layout-view {
+    padding: 20px;
+  }
+  
+  .view-toggle {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .view-toggle button {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .view-toggle button.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .view-toggle button:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* Grid View */
+  .product-container.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+  }
+  
+  .product-container.list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Product Card Style */
+  .product-card {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+    background-color: #f0f8ff;
+  }
+  
+  /* List View Specific Styles */
+  .product-container.list .product-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
