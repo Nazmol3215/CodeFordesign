@@ -6,8 +6,6 @@ import ProductGrid from "./Components/ProductGrid"
 import AppTen from "./Components/ProductsOne"
 import ShoppingCart from "./Components/ShoppingCart"
 import ShoppingListFour from "./Components/ShoppingListFour"
-import VendorPerformanceReport from "./VendorSignUp/VendorPerformanceReport"
-import VendorSignUp from "./VendorSignUp/VendorSignUp"
 import AboutSection from "./WebsiteLink/AboutSection"
 import Footer from "./WebsiteLink/Footer"
 import HeroSection from "./WebsiteLink/HeroSection"
@@ -37,56 +35,47 @@ import ReviewFilter from "./ReviewFilter/ReviewFilter"
 import FirstThe from "./ShipmentTracking/FirstThe"
 import TrendingAndRecommended from "./TrendingAndRecommended/TrendingAndRecommended"
 import Firstthreetry from "./UserProfilePage/Firstthreetry"
-import VendorProductManagement from "./VendorSignUp/VendorProductManagement"
 
 function App() {
   const productId = "12345";
   return (
     <>
-
-
-    <VendorProductManagement/>
-<Firstthreetry/>
-<TrendingAndRecommended/>
-<FirstThe/>
-    <ReviewFilter/>
-<First/>
-    <Two/>
-<ProductListWithSort/>
-<RealTimeSearch/>
-<ProductFilter/>
-<FirstThrtty/>
-<Seven/>
-<TrackOrder/>
-<FirstFist/>
-<Four/>
-<AddoCartWishlist/>
-<FirstThree/>
-<GiftWrapOption/>
-<FilterSlider/>
-<One/>
-<FirstOnety/>
-    <FirstFive/>
-<FirstTeen/>
-    <MainCom/>
-<AboutSection/>
-<HeroSection/>
-<ProductSection/>
-<Footer/>
-<AdminDashboard/>
-<AppTwoenty/>
-<ProductCard/>
-<ProductGrid/>
-<AppTen/>
-<ShoppingCart/>
-<ShoppingListFour/>
-<VendorPerformanceReport/>
-<VendorSignUp/>
-
-<RuleBasedChatBot/>
-
-<FirstAlleven/>
-
+      <Firstthreetry />
+      <TrendingAndRecommended />
+      <FirstThe />
+      <ReviewFilter />
+      <First />
+      <Two />
+      <ProductListWithSort />
+      <RealTimeSearch />
+      <ProductFilter />
+      <FirstThrtty />
+      <Seven />
+      <TrackOrder />
+      <FirstFist />
+      <Four />
+      <AddoCartWishlist />
+      <FirstThree />
+      <GiftWrapOption />
+      <FilterSlider />
+      <One />
+      <FirstOnety />
+      <FirstFive />
+      <FirstTeen />
+      <MainCom />
+      <AboutSection />
+      <HeroSection />
+      <ProductSection />
+      <Footer />
+      <AdminDashboard />
+      <AppTwoenty />
+      <ProductCard />
+      <ProductGrid />
+      <AppTen />
+      <ShoppingCart />
+      <ShoppingListFour />
+      <RuleBasedChatBot />
+      <FirstAlleven />
     </>
   )
 }
