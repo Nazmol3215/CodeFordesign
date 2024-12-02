@@ -34,12 +34,11 @@ const orders = [
 const AppTwoenty = () => {
   return (
     <div className="container mt-4">
-      <h2 className="text-center mb-4">Shopping History</h2>
 
       {/* Orders List */}
       {orders.map((order) => (
         <div className="card mb-4" key={order.id}>
-          <div className="card-header d-flex justify-content-between">
+          <div className="card-header d-flex justify-content-between" >
             <span><strong>Order ID:</strong> {order.id}</span>
             <span><strong>Date:</strong> {order.date}</span>
           </div>

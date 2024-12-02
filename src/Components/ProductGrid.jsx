@@ -40,7 +40,6 @@ const ProductGrid = () => {
 
   return (
     <div className="container mt-5">
-      <h1 className="text-center mb-4">Product Grid</h1>
 
       {/* প্রোডাক্ট গ্রিড */}
       <div className="row">

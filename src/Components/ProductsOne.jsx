@@ -38,10 +38,9 @@ const AppTen = () => {
 
   return (
     <div className="container mt-4">
-      <h2 className="mb-4 text-center">Product Filter</h2>
 
       {/* Filters */}
-      <div className="row mb-4">
+      <div  >
         <div className="col-md-3">
           <label>Category</label>
           <select
@@ -67,7 +66,7 @@ const AppTen = () => {
             <option value="Adidas">Adidas</option>
           </select>
         </div>
-        <div className="col-md-3">
+        <div className="col-md-12">
           <label>Rating</label>
           <select
             className="form-select"

@@ -10,7 +10,6 @@ const ProductSection = () => {
   return (
     <div className="product-section py-5" id="products">
       <div className="container">
-        <h2 className="text-center mb-4">Our Products</h2>
         <div className="row">
           {products.map((product) => (
             <div className="col-md-4" key={product.id}>

@@ -18,7 +18,6 @@ const AdminDashboard = () => {
 
   return (
     <div className="container mt-5">
-      <h1 className="text-center mb-4">Admin Dashboard</h1>
 
       {/* ইন্ট্রোডাক্টরি ফিচার */}
       <div className="row mb-4">

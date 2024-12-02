@@ -1,5 +1,4 @@
 
-import AdminDashboard from "./Components/AdminDashboard"
 import AppTwoenty from "./Components/AppTwoenty"
 import ProductCard from "./Components/ColorOption"
 import ProductGrid from "./Components/ProductGrid"
@@ -67,7 +66,6 @@ function App() {
       <HeroSection />
       <ProductSection />
       <Footer />
-      <AdminDashboard />
       <AppTwoenty />
       <ProductCard />
       <ProductGrid />
